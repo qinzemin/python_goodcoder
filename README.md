@@ -1,8 +1,7 @@
 mini_spider for Python_good_coder
-
-Commemorating the Python Good Coder test passed in April 2023
 ===
-#项目结构说明：
+# Commemorating the Python Good Coder test passed in April 2023
+# 项目结构说明：
 ```
 pytest202304目录：
     mini_spider.py: 主程序入口  
@@ -29,14 +28,14 @@ README.md: 说明文档
 ci.yml setup.cfg setup.py：持续集成相关文件 
 ```
 
-#问题描述：
+# 问题描述：
 迷你定向网页抓取器 <br>
 在调研过程中，经常需要对一些网站进行定向抓取。 <br>
 由于python包含各种强大的库，使用python做定向抓取比较简单。请使用python开发一个迷你定向抓取器mini_spider.py，实现对种子链接的广度优先抓取，并把URL长相符合特定pattern的网页内容（图片或者html等）保存到磁盘上。
 
-#程序运行：
+# 程序运行：
 `python mini_spider.py -c conf/spider.conf`  
-#配置文件说明：
+# 配置文件说明：
 ```
 [spider] 
 url_list_file: ./urls ; 种子文件路径 
@@ -47,7 +46,7 @@ crawl_timeout: 1 ; 抓取超时. 单位：秒
 target_url: .*\.(html|gif|png|jpg|bmp)$ ; 需要存储的目标网页URL pattern(正则表达式) ,需要考虑兼容抓取html等情况，不止是抓取图片
 thread_count: 8 ; 抓取线程数 
 ```
-#种子文件示例：
+# 种子文件示例：
 种子文件每行一条链接，例如： <br>
 http://cup.baidu.com/spider/ <br>
 http://www.baidu.com  <br>
