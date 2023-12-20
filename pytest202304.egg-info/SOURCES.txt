@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+pytest202304/__init__.py
+pytest202304/__main__.py
+pytest202304/cmdline.py
+pytest202304/demo.py
+pytest202304.egg-info/PKG-INFO
+pytest202304.egg-info/SOURCES.txt
+pytest202304.egg-info/dependency_links.txt
+pytest202304.egg-info/not-zip-safe
+pytest202304.egg-info/top_level.txt
+pytest202304/tests/__init__.py
